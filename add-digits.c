@@ -1,0 +1,23 @@
+/*
+ * Add Digits
+ */
+
+#include <stdio.h>
+
+int
+addDigits(int num) {
+        if (num <= 9) {
+                return num;
+        } else if (num % 9 == 0) {
+                return 9;
+        } else {
+                return (num % 9);
+        }
+}
+
+int
+main()
+{
+        printf("%d\n", addDigits(1234));
+        return 0;
+}
