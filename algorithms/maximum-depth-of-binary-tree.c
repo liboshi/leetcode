@@ -23,7 +23,5 @@ maxDepth(struct TreeNode* root)
 int
 main()
 {
-        struct TreeNode *root;
-        root->val = 1;
-        return maxDepth(root);
+        return 0;
 }
