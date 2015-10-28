@@ -12,10 +12,3 @@ deleteNode(struct ListNode* node) {
         node->val = node->next->val;
         node->next = node->next->next;
 }
-
-int
-main()
-{
-        struct ListNode *node;
-        deleteNode(node);
-}

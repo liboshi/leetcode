@@ -14,10 +14,3 @@ addDigits(int num) {
                 return (num % 9);
         }
 }
-
-int
-main()
-{
-        printf("%d\n", addDigits(1234));
-        return 0;
-}

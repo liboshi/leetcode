@@ -14,9 +14,3 @@ canWinNim(int n)
 {
         return !(n % 4 == 0);
 }
-
-bool
-main()
-{
-        return canWinNim(7);
-}

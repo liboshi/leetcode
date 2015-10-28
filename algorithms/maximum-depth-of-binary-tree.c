@@ -19,9 +19,3 @@ maxDepth(struct TreeNode* root)
 {
         return root == NULL ? 0 : max(maxDepth(root->left), maxDepth(root->right)) + 1;
 }
-
-int
-main()
-{
-        return 0;
-}
