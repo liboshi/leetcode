@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int*
 twoSum(int* nums, int numsSize, int target) {
-        int *retArray = malloc(2 * sizeof(int));
+        int *retArray = (int *)malloc(2 * sizeof(int));
         if (numsSize == 1) {
                 return NULL;
         }
