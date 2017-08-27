@@ -1,5 +1,5 @@
 # C Makefile
-app: a.out
+app:
 	gcc test.c
 
 clean:
