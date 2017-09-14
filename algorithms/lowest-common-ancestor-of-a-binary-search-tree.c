@@ -1,3 +1,11 @@
+#include <stdio.h>
+
+struct TreeNode {
+        int val;
+        struct TreeNode *right;
+        struct TreeNode *left;
+};
+
 /*
  * Lowest Common Ancestor of a Binary Search Tree
  */
@@ -16,4 +24,8 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
 
         }
         return NULL;
+}
+
+int main() {
+        return 0;
 }
