@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-#define true 1
-#define false 0
-#define bool int
+typedef int bool;
+
+enum {
+        false,
+        true
+};
 
 bool
 isPalindrome(int x) {
